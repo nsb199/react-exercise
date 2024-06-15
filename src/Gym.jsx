@@ -15,9 +15,10 @@ function Gym() {
       url: "https://exercisedb.p.rapidapi.com/exercises",
       params: { limit: dataIncrease },
       headers: {
-        'x-rapidapi-key': 'e806a6f38cmsh3be995132d4f327p1cf72fjsn2908cf23eec5',
+        'x-rapidapi-key': 'c17f4e1e76mshe616e0cb9ee4907p19bfa6jsn42a5f96ea71c',
         'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
       }
+      
     };
 
     try {
