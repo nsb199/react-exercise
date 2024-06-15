@@ -1,0 +1,57 @@
+.gym-container {
+    margin: 12px;
+    margin-top: 56px;
+   
+  }
+  
+  .gym-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(56, 55, 55);
+  }
+  
+  .gym-search {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+  
+  }
+  
+  .gym-card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  
+  .gym-no-data {
+    text-align: center;
+  }
+  
+  .gym-show-more {
+    margin-top: 32px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .gym-show-more button {
+    padding: 8px 24px;
+    background-color: #d34d4d;
+    border-radius: 11px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .gym-show-more button:hover {
+    transform: scale(1.1);
+    background-color: #db3a3a;
+  }

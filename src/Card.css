@@ -1,0 +1,37 @@
+.card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 380px;
+    margin: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+  .card:hover {
+    transform: scale(1.1);
+    background-color: #d3d2d2;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+
+  }
+  
+  .card-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    text-transform: uppercase;
+  }
+  
+  .card-bodyPart, .card-target {
+    color: #4a4a4a;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+  
